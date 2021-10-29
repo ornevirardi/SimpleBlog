@@ -1,0 +1,50 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    grid-area: 1 / 1 / 2 / 6;
+  }
+  .main {
+    grid-area: 2 / 1 / 6 / 4;
+  }
+  .sidebar {
+    grid-area: 2 / 4 / 6 / 6;
+  }
+  #nestedPic {
+    display: grid;
+    grid-template-columns: 100px 1 fr;
+    grid-template-rows: 350px 3fr;
+    border: 4px solid pink;
+  }
+  #myimage2 {
+    display: flex;
+    width: 300px;
+    height: 340px;
+    margin: auto;
+  }
+  #figcap{
+    color: saddlebrown;
+    text-align: center;
+  }
+  h1 {
+    font-family: cursive, "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: pink;
+  }
+  h6 {
+    color: grey;
+    font-size: small;
+  }
+  #socials {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: peachpuff;
+  }
+  a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: peru;
+  }

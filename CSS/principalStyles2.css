@@ -1,0 +1,23 @@
+#title2 {
+    font-family: cursive;
+    color: #Edbcb0;
+  }
+  #sdP {
+    color: peru;
+    text-align: left;
+  }
+  #p1 {
+    text-align: justify;
+  }
+  #sdUl {
+    list-style-type: square;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: peachpuff;
+  }
+  #sdA {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: peru;
+    font-size: small;
+  }

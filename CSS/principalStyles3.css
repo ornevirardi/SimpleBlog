@@ -1,0 +1,9 @@
+.footerBox {
+    display: flex;
+    justify-content: left;
+    color: saddlebrown;
+  }  
+  #figcap {
+    color: saddlebrown;
+    text-align: left;
+  }
